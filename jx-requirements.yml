@@ -7,10 +7,10 @@ buildPacks:
     gitRef: master
     gitURL: https://github.com/jenkins-x/jx3-pipeline-catalog.git
 cluster:
-  clusterName: ""
+  clusterName: "ndtech-k8s-cluster"
   devEnvApprovers:
   - todo
-  environmentGitOwner: "todo"
+  environmentGitOwner: "ndtech-pipeline"
   gitKind: github
   gitName: github
   gitServer: https://github.com
