@@ -23,10 +23,6 @@ variable "cluster_resource_group_name"{
   default = "ndtech-k8s-cluster-resource-group"
 }
 
-variable "cluster_node_resource_group_name"{
-  default = "ndtech-k8s-cluster-nrg"
-}
-
 variable "dns_resource_group_name"{
   default = "ndtech-k8s-dns-resource-group"
 }
