@@ -16,19 +16,19 @@ variable "location"{
 }
 
 variable "network_resource_group_name"{
-  default = "ndtech-k8s-resource-group"
+  default = "ndtech-k8s-network-resource-group"
 }
 
 variable "cluster_resource_group_name"{
-  default = "ndtech-k8s-resource-group"
+  default = "ndtech-k8s-cluster-resource-group"
 }
 
 variable "cluster_node_resource_group_name"{
-  default = "ndtech-k8s-resource-group"
+  default = "ndtech-k8s-cluster-node-resource-group"
 }
 
 variable "dns_resource_group_name"{
-  default = "ndtech-k8s-resource-group"
+  default = "ndtech-k8s-dns-resource-group"
 }
 
 variable "node_count"{
