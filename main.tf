@@ -12,6 +12,7 @@ module "jx" {
   cluster_resource_group_name       = var.cluster_resource_group_name
   cluster_node_resource_group_name  = var.cluster_node_resource_group_name
   dns_resource_group_name           = var.dns_resource_group_name
+  node_count                        = var.node_count
 }
 
 output "connect" {

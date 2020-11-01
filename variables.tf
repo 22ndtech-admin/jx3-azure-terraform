@@ -31,3 +31,7 @@ variable "dns_resource_group_name"{
   default = "ndtech-k8s-resource-group"
 }
 
+variable "node_count"{
+  default = "2"
+}
+
