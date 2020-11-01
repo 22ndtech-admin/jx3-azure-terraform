@@ -25,9 +25,9 @@ output "next_install" {
 # store tfstate in an azure blob
 terraform {
   backend "azurerm" {
-    resource_group_name  = "ndtech-k8s-resource-group"
-    storage_account_name = "ndtechk8sstorageact"
-    container_name       = "ndtechk8sstorcont"
+    resource_group_name  = "ndtech-terraform-resource-group"
+    storage_account_name = "ndtechtfstorageact"
+    container_name       = "ndtechtfstorcont"
     key                  = "ndtech-k8s-azure.terraform.tfstate"
   }
 }
