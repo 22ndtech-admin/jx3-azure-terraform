@@ -5,7 +5,7 @@ module "jx" {
   jx_git_url                        = local.jx_git_url
   jx_bot_username                   = local.jx_bot_username
   jx_bot_token                      = var.jx_bot_token
-  cluser_name                       = var.cluster_name
+  cluster_name                      = var.cluster_name
   cluster_version                   = var.cluster_version
   location                          = var.location
   network_resource_group_name       = var.network_resource_group_name
