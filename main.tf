@@ -21,3 +21,13 @@ output "next_install" {
   description = "Follow instructions to enable Jenkins X install via GitOps"
   value       = "https://jenkins-x.io/docs/v3/guides/operator"
 }
+
+# store tfstate in an azure blob
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "ndtech-k8s-resource-group"
+    storage_account_name = "ndtechk8sstorageact"
+    container_name       = "ndtechk8sstorcont"
+    key                  = "ndtech-k8s-azure.terraform.tfstate"
+  }
+}
